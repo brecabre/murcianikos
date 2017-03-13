@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="Animation" subresource_count="1" version="2.1" version_name="Godot Engine v2.1.stable.official">
+	<main_resource>
+		<string name="resource/name"> "cuerpo_correr" </string>
+		<real name="length"> 1 </real>
+		<bool name="loop"> True </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "correr" </node_path>
+		<int name="tracks/0/interp"> 0 </int>
+		<bool name="tracks/0/imported"> False </bool>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "times" </string>
+			<real_array  len="4"> 				0, 0.2, 0.5, 1 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="4"> 				1, 1, 1, 1 </real_array>
+			<string> "update" </string>
+			<int> 0 </int>
+			<string> "values" </string>
+			<array  len="4" shared="false">
+				<rect2> 0, 0, 0, 0 </rect2>
+				<rect2> 0, 0, 0, 0 </rect2>
+				<rect2> 120, 80, 60, 60 </rect2>
+				<rect2> 60, 80, 60, 60 </rect2>
+			</array>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
