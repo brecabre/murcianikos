@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="3" version="2.1" version_name="Godot Engine v2.1.stable.official">
+	<ext_resource path="res://Assets/Sprites/Static/ladrillo.png" type="Texture" index="0"></ext_resource>
+	<resource type="RectangleShape2D" path="local://1">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 141.347, 5.49995 </vector2>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="23">
+				<string> "level1_pantalla2" </string>
+				<string> "__meta__" </string>
+				<string> "Node2D" </string>
+				<string> "StaticBody2D" </string>
+				<string> "transform/pos" </string>
+				<string> "input/pickable" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "shape" </string>
+				<string> "trigger" </string>
+				<string> "_update_shape_index" </string>
+				<string> "ladrillo" </string>
+				<string> "transform/scale" </string>
+				<string> "texture" </string>
+				<string> "Sprite" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 4 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="70"> 				-1, -1, 2, 0, -1, 1, 1, 0, 0, 0, 0, 3, 3, -1, 11, 4, 1, 5, 2, 6, 3, 7, 4, 8, 2, 9, 5, 10, 5, 11, 6, 12, 7, 13, 8, 14, 7, 0, 1, 0, 15, 15, -1, 5, 4, 9, 16, 3, 17, 2, 18, 10, 1, 11, 0, 1, 0, 22, 19, -1, 4, 4, 12, 20, 13, 21, 14, 1, 15, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="16" shared="false">
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 498.234, 529.404 </vector2>
+				<bool> False </bool>
+				<resource  resource_type="Shape2D" path="local://1">  </resource>
+				<matrix32> 1, -0, 0, 1, -0.0309753, -3.41751 </matrix32>
+				<int> 1 </int>
+				<vector2> 0, 0 </vector2>
+				<real> 0 </real>
+				<real> 1 </real>
+				<vector2> -0.0309753, -3.41751 </vector2>
+				<int> 0 </int>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 0.24263, -3.37246 </vector2>
+				<vector2> 15.6628, 1 </vector2>
+				<resource  external="0">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
